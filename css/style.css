@@ -1,0 +1,293 @@
+@font-face {
+    font-family: 'Baron Neue';
+    src: url('../fonts/Baron Neue.otf') format('truetype');
+}
+
+:root {
+    --baron: "Baron Neue", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(149.37deg, rgba(0, 0, 0, 0.27) 37.61%, rgba(0, 0, 0, 0) 81.41%), linear-gradient(0deg, #1E1E1E, #1E1E1E);
+    display: flex;
+    justify-content: center;
+}
+
+.mainBlock {
+    height: 100vh;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainBlock nav ul {
+    display: flex;
+    gap: 10px;
+    padding-top: 47px;
+    padding-left: 201px;
+}
+
+.mainBlock nav ul li {
+    list-style: none;
+}
+
+.mainBlock nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.mainBlock nav ul li a:hover {
+    color: #FA8070;
+}
+
+.mainBlock_left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+    width: 50%;
+    height: 100%;
+}
+
+.mainBlock_left__title {
+    color: white;
+    font-size: 155px;
+    font-weight: 400;
+    font-family: var(--baron);
+}
+
+.mainBlock_left__title span {
+    font-family: var(--baron);
+    color: #FA8070;
+}
+
+.mainBlock_left__list ul {
+    display: flex;
+    gap: 35px;
+}
+
+.mainBlock_left__list ul li {
+    list-style: none;
+}
+
+.mainBlock_left__list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.mainBlock_left__button {
+    border: 1px solid #FA8070;
+    padding: 20px;
+    color: white;
+    width: 345px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D78075;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.mainBlock_left__button:hover{
+    background-color: #FA8070;
+    color: #fff;
+}
+
+.mainBlock_right {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+header nav {
+    width: 1920px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 100px;
+    padding: 47px 0;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+
+header nav ul li a:hover {
+    color: #FA8070;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.mainBlock_right {
+    width: 50%;
+    height: 100%;
+}
+
+.mainBlock_right img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 1200px;
+}
+
+.professional-level_section {
+    display: flex;
+    background-color: #1E1E1E;
+}
+
+.professional-level_section h1 {
+    color: white;
+    font-size: 64px;
+}
+
+.professional-level_section_left {
+    padding-left: 163px;
+    padding-top: 128px;
+    margin-right: 127px;
+}
+
+.professional-level_section_right img {
+    width: auto;
+}
+
+.professional-level_section_left_info_card {
+    display: flex;
+}
+
+.professional-level_section_left_info_card_list {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+}
+
+.professional-level_section_left_info_card img {
+    height: 39px;
+    width: 39px;
+}
+
+.professional-level_section_left_info_card p {
+    color: #FFF;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.advantagesWorkingWithMe {
+    background-color: #FFFFFF;
+}
+
+.advantagesWorkingWithMe_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.advantagesWorkingWithMe_section h1 {
+    font-size: 40px;
+}
+
+.advantagesWorkingWithMe_section_row {
+    margin-top: 80px;
+    display: flex;
+}
+
+.advantagesWorkingWithMe_section_table_card {
+    margin-right: 209px;
+}
+
+.advantagesWorkingWithMe_section_table_card p {
+    width: 620px;
+    font-size: 20px;
+}
+
+.advantagesWorkingWithMe_section_table_card h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.rigth-bottom h2 {
+    font-size: 20px;
+    width: 559px;
+}
+
+.contacts_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+}
+
+.contacts_section h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 120px;
+    margin-bottom: 69px;
+}
+
+.contacts_section p {
+    display: flex;
+    color: white;
+}
+
+.phone {
+    margin-bottom: 44px;
+}
+
+.mail {
+    margin-bottom: 90px;
+}
+
+
+.goToVK {
+    text-align: center;
+    border: 1px solid white;
+    margin-bottom: 122px;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 50px;
+}
