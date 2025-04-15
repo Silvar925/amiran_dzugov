@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -9,188 +9,157 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/adaptive.css">
+    <!-- <link rel="stylesheet" href="css/adaptive.css"> -->
+    <link rel="stylesheet" href="css/new-adaptive.css">
 
     <title>Амиран ДЗУГОВ</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">ГЛАВНАЯ</a></li>
-                <li><a href="index.html">МЕРОПРИЯТИЯ</a></li>
-                <li><a href="index.html">ПРОФЕССИОНАЛЬНЫЙ УРОВЕНЬ</a></li>
-                <li><a href="index.html">СОТРУДНИЧЕСТВО</a></li>
-                <li><a href="index.html">КОНТАКТЫ</a></li>
+
+    <header class="header">
+        <nav class="header__menu">
+            <ul class="header__menu-list">
+                <li class="header__menu-item"><a href="index.html" class="header__menu-link">ГЛАВНАЯ</a></li>
+                <li class="header__menu-item"><a href="index.html" class="header__menu-link">МЕРОПРИЯТИЯ</a></li>
+                <li class="header__menu-item"><a href="index.html" class="header__menu-link">ПРОФЕССИОНАЛЬНЫЙ
+                        УРОВЕНЬ</a>
+                </li>
+                <li class="header__menu-item"><a href="index.html" class="header__menu-link">СОТРУДНИЧЕСТВО</a></li>
+                <li class="header__menu-item"><a href="index.html" class="header__menu-link">КОНТАКТЫ</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="main">
-        <div class="mainBlock">
-            <div class="mainBlock_left">
-                <div class="mainBlock_left__title">
-                    АМИРАН <br> <span>ДЗУГОВ</span>
-                </div>
+    <main class="main">
+        <section class="hero">
+            <div class="hero__info">
+                <header class="hero__header">
+                    <h2 class="hero__title">
+                        <span class="white">АМИРАН</span>
+                        <span class="coral">ДЗУГОВ</span>
+                    </h2>
+                </header>
 
-                <div class="mainBlock_left__list">
-                    <ul>
-                        <li>Ведущий</li>
-                        <li><img src="img/Ellipse 1.png" alt=""></li>
-                        <li>Модератор</li>
-                        <li><img src="img/Ellipse 1.png" alt=""></li>
-                        <li>Эрудит</li>
-                        <li><img src="img/Ellipse 1.png" alt=""></li>
-                        <li>Спикер</li>
-                    </ul>
-                </div>
+                <ul class="hero__list">
+                    <li class="hero__list-item">Ведущий</li>
+                    <li class="hero__list-item">Модератор</li>
+                    <li class="hero__list-item">Эрудит</li>
+                    <li class="hero__list-item">Спикер</li>
+                </ul>
 
-                <div class="mainBlock_left__button">
-                    Связаться со мной
-                </div>
-
+                <button class="hero__button">Связаться со мной</button>
             </div>
 
-            <div class="mainBlock_right">
-                <img src="img/amiran.png" alt="">
-            </div>
-        </div>
-    </div>
+            <img src="img/amiran.png" alt="amiran" class="hero_img">
+        </section>
+        <h1 class="main__title">Мероприятия</h1>
+        <section class="event">
+            <ul id="slide1" class="event__slider">
+                <li class="event__slider-item elem1"><img src="img/event1_slide2.jfif" alt="amiran-img"></li>
+                <li class="event__slider-item elem1"><img src="img/event1_slide3.jfif" alt="amiran-img"></li>
+                <li class="event__slider-item elem1"><img src="img/event1_slide2.jfif" alt="amiran-img"></li>
+                <li class="event__slider-item elem1"><img src="img/event1_slide3.jfif" alt="amiran-img"></li>
+                <li class="event__slider-item elem1"><img src="img/event1_slide1.jfif" alt="amiran-img"></li>
+                <li class="event__slider-item elem1"><img src="img/event1_slide1.jfif" alt="amiran-img"></li>
+            </ul>
 
-    <div class="advantagesWorkingWithMe_section changeData">
-        <h1>Мероприятия</h1>
-    </div>
+            <div class="event__info">
+                <header class="event__header">
+                    <h2 class="event__title">Официальные</h2>
+                    <div class="event__slider-nav">
+                        <button id="next1"><i class="fa-solid fa-angle-left"></i></button>
+                        <button id="prev1"><i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </header>
 
-    <div class="eventBlock">
-        <div class="container">
-            <div id="slide1">
-                <div class="item elem1" style="background-image: url(img/event1_slide1.jfif);"></div>
-                <div class="item elem1" style="background-image: url(img/event1_slide4.jfif);"></div>
-                <div class="item elem1" style="background-image: url(img/event1_slide2.jfif);"></div>
-                <div class="item elem1" style="background-image: url(img/event1_slide3.jfif);"></div>
-                <div class="item elem1" style="background-image: url(img/event1_slide2.jfif);"></div>
-                <div class="item elem1" style="background-image: url(img/event1_slide3.jfif);"></div>
-            </div>
-            <div class="buttons">
-                <button id="prev1"><i class="fa-solid fa-angle-left"></i></button>
-                <button id="next1"><i class="fa-solid fa-angle-right"></i></button>
-            </div>
-        </div>
-        <div class="eventText">
-            <div class="eventText_title">
-                Официальные
-            </div>
-            <div class="eventText_nums">
-                <ul>
-                    <li>
-                        <div>01</div>
-                        <div>Мероприятия органов исполнительной власти с участием высших должностных лиц</div>
-                    <li>
-                        <div>02</div>
-                        <div>Официальные корпоративные события</div>
+                <ul class="event__list">
+                    <li class="event__list-item"><span class="coral">01</span><span>Мероприятия органов исполнительной
+                            власти с участием высших должностных лиц</span>
                     </li>
-                    <li>
-                        <div>03</div>
-                        <div>Бизнес-встречи и презентации проектов</div>
+                    <li class="event__list-item"><span class="coral">02</span><span>Официальные корпоративные
+                            события</span>
                     </li>
-                    <li>
-                        <div>04</div>
-                        <div>Опыт телеведущего</div>
+                    <li class="event__list-item"><span class="coral">03</span><span>Бизнес-встречи и презентации
+                            проектов</span></li>
+                    <li class="event__list-item"><span class="coral">04</span><span>Опыт телеведущего</span></li>
+                </ul>
+            </div>
+
+        </section>
+        <section class="event">
+            <ul id="slide2" class="event__slider">
+                <li class="event__slider-item elem2"><img src="img/event2_slide3.jfif" alt="amiran-img"></li>
+                <li class="event__slider-item elem2"><img src="img/event2_slide1.jfif" alt="amiran-img"></li>
+                <li class="event__slider-item elem2"><img src="img/event2_slide2.jfif" alt="amiran-img"></li>
+                <li class="event__slider-item elem2"><img src="img/event2_slide3.jfif" alt="amiran-img"></li>
+                <li class="event__slider-item elem2"><img src="img/event2_slide4.jfif" alt="amiran-img"></li>
+                <li class="event__slider-item elem2"><img src="img/event2_slide5.jfif" alt="amiran-img"></li>
+            </ul>
+
+            <div class="event__info">
+                <header class="event__header">
+                    <h2 class="event__title">Торжественные и рекламные</h2>
+                    <div class="event__slider-nav">
+                        <button id="next2"><i class="fa-solid fa-angle-left"></i></button>
+                        <button id="prev2"><i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </header>
+                <ul class="event__list">
+                    <li class="event__list-item">
+                        <span>01</span><span>Выпускной школьного класса / студенческой группы</span>
+                    <li class="event__list-item"><span>02</span><span>Открытие или юбилей заведения</span></li>
+                    <li class="event__list-item"><span>03</span><span>Тематическая вечеринка или корпоратив</span></li>
+                    <li class="event__list-item"><span>04</span><span>Акции и съемка рекламы заведения/события</span>
                     </li>
                 </ul>
             </div>
-        </div>
-    </div>
+        </section>
+        <section class="event">
+            <ul id="slide3" class="event__slider">
+                <li class="event__slider-item elem3"><img src="img/event3_slide2.jfif" alt="amiran-img"></li>
+                <li class="event__slider-item elem3"><img src="img/event3_slide1.png" alt="amiran-img"></li>
+                <li class="event__slider-item elem3"><img src="img/event3_slide3.jfif" alt="amiran-img"></li>
+                <li class="event__slider-item elem3"><img src="img/event3_slide4.jfif" alt="amiran-img"></li>
+                <li class="event__slider-item elem3"><img src="img/event3_slide2.jfif" alt="amiran-img"></li>
+                <li class="event__slider-item elem3"><img src="img/event3_slide3.jfif" alt="amiran-img"></li>
+            </ul>
 
-    <div class="eventBlock">
-        <div class="container">
-            <div id="slide2">
-                <div class="item elem2" style="background-image: url(img/event2_slide3.jfif);"></div>
-                <div class="item elem2" style="background-image: url(img/event2_slide1.jfif);"></div>
-                <div class="item elem2" style="background-image: url(img/event2_slide2.jfif);"></div>
-                <div class="item elem2" style="background-image: url(img/event2_slide3.jfif);"></div>
-                <div class="item elem2" style="background-image: url(img/event2_slide4.jfif);"></div>
-                <div class="item elem2" style="background-image: url(img/event2_slide5.jfif);"></div>
-            </div>
-            <div class="buttons">
-                <button id="prev2"><i class="fa-solid fa-angle-left"></i></button>
-                <button id="next2"><i class="fa-solid fa-angle-right"></i></button>
-            </div>
-        </div>
-        <div class="eventText">
-            <div class="eventText_title">
-                Торжественные и рекламные
-            </div>
-            <div class="eventText_nums">
-                <ul>
-                    <li>
-                        <div>01</div>
-                        <div>Выпускной школьного класса / студенческой группы</div>
-                    <li>
-                        <div>02</div>
-                        <div>Открытие или юбилей заведения</div>
-                    </li>
-                    <li>
-                        <div>03</div>
-                        <div>Тематическая вечеринка или корпоратив</div>
-                    </li>
-                    <li>
-                        <div>04</div>
-                        <div>Акции и съемка рекламы заведения/события</div>
+            <div class="event__info">
+                <header class="event__header">
+                    <h2 class="event__title">Образовательные</h2>
+                    <div class="event__slider-nav">
+                        <button id="next3"><i class="fa-solid fa-angle-left"></i></button>
+                        <button id="prev3"><i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </header>
+
+                <ul class="event__list">
+                    <li class="event__list-item"><span>01</span><span>Интеллектуальные игры: Квиз и «Лига
+                            Эрудитов»</span>
+                    <li class="event__list-item"><span>02</span><span>Выступление в качестве спикера и тренера по теме
+                            «Ораторское искусство»</span>
                     </li>
                 </ul>
             </div>
-        </div>
-    </div>
+        </section>
+        <section class="prof-level">
+            <div class="prof-level__info">
+                <header class="prof-level__header">
+                    <h2 class="prof-level__title"><span class="coral">ПРОФЕССИОНАЛЬНЫЙ</span><span
+                            class="white">УРОВЕНЬ</span>
+                    </h2>
+                </header>
 
-    <div class="eventBlock">
-        <div class="container">
-            <div id="slide3">
-                <div class="item elem3" style="background-image: url(img/event3_slide2.jfif);"></div>
-                <div class="item elem3" style="background-image: url(img/event3_slide1.png);"></div>
-                <div class="item elem3" style="background-image: url(img/event3_slide3.jfif);"></div>
-                <div class="item elem3" style="background-image: url(img/event3_slide4.jfif);"></div>
-                <div class="item elem3" style="background-image: url(img/event3_slide2.jfif);"></div>
-                <div class="item elem3" style="background-image: url(img/event3_slide3.jfif);"></div>
-            </div>
-            <div class="buttons">
-                <button id="prev3"><i class="fa-solid fa-angle-left"></i></button>
-                <button id="next3"><i class="fa-solid fa-angle-right"></i></button>
-            </div>
-        </div>
-        <div class="eventText">
-            <div class="eventText_title">
-                Образовательные
-            </div>
-            <div class="eventText_nums">
-                <ul>
-                    <li>
-                        <div>01</div>
-                        <div>Интеллектуальные игры: Квиз и «Лига Эрудитов»</div>
-                    <li>
-                        <div>02</div>
-                        <div>Выступление в качестве спикера и тренера по теме «Ораторское искусство»</div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <section class="professional-level_section">
-        <div class="professional-level_section_left">
-            <h1>ПРОФЕССИОНАЛЬНЫЙ <span>УРОВЕНЬ</span></h1>
-
-            <div class="professional-level_section_left_info">
-                <div class="professional-level_section_left_info_card_list">
-                    <div class="professional-level_section_left_info_card">
+                <ul class="prof-level__list">
+                    <li class="prof-level__item">
                         <img src="img/select.png" alt="">
                         <p>Провел несколько десятков официальных протокольных и развлекательных мероприятий с участием
                             руководства
                             органов исполнительной власти федерального и регионального уровня</p>
-                    </div>
+                    </li>
 
-                    <div class="professional-level_section_left_info_card">
+                    <li class="prof-level__item">
                         <img src="img/select.png" alt="">
                         <p>Выступил спикером и модератором более чем на 100 площадках молодежных, бизнес и
                             образовательных
@@ -198,154 +167,138 @@
                             и футболу,
                             фешн и бьюти события, забеги и трейлы, торжественные церемонии награждения и многое другое.
                         </p>
-                    </div>
+                    </li>
 
-                    <div class="professional-level_section_left_info_card">
+                    <li class="prof-level__item">
                         <img src="img/select.png" alt="">
                         <p>Имею широкую сеть контактов и знакомств, что определенно поможет в решении поставленной
                             задачи</p>
-                    </div>
+                    </li>
 
-                    <div class="professional-level_section_left_info_card">
+                    <li class="prof-level__item">
                         <img src="img/select.png" alt="">
-                        <p>Не крохобор, всегда делаю скидки и иду на встречу обратившемуся ко мне</p>
+                        <p>Не крохобор, всегда делаю скидки и иду навстречу обратившемуся ко мне</p>
+                    </li>
+                </ul>
+            </div>
+            <img src="img/amiran2.png" alt="" class="prof-level__img">
+        </section>
+        <section class="advantages">
+            <header class="advantages__header">
+                <h2 class="advantages__title">ПРЕИМУЩЕСТВА СОТРУДНИЧЕСТВО СО МНОЙ</h2>
+            </header>
+
+            <ul class="advantages__list">
+                <li class="advantages__list-item">
+                    <p class="advantages__list-item-title">Экспертность</p>
+                    <p class="advantages__list-item-text">Человекоориентированность и гибкость Приверженность своему
+                        делу
+                        Большой практический опыт-возвели мою
+                        экспертность в проведении мероприятий на высокий уровень</p>
+                </li>
+                <li class="advantages__list-item">
+                    <p class="advantages__list-item-title">При необходимости:</p>
+                    <p class="advantages__list-item-text">Договор с самозанятым (НПД)Звуковая аппаратура под ключ
+                        Консультация
+                        бесплатная (30 минут)</p>
+                </li>
+                <li class="advantages__list-item">
+                    <p class="advantages__list-item-title">Полное погружение в тему</p>
+                    <p class="advantages__list-item-text">
+                        Обратившись ко мне, и решив сотрудничать со мной, вы пригласите не очередного ведущего с
+                        заученными
+                        фразами,
+                        шаблонным сценарием, а эрудита, постоянно развивающего свои компетенции и программу, как бонус,
+                        умение
+                        заряжать
+                        позитивом и хорошее чувство юмора включающееся там, где это уместно…
+                    </p>
+                </li>
+                <li class="advantages__list-item">
+                    <p class="advantages__list-item-title">Проживаю мероприятие вместе с вами, не лезу во внутреннюю
+                        кухню,
+                        но
+                        могу дать ценные консультации и
+                        видения</p>
+                    <p class="advantages__list-item-text">
+                        P.S. Никаких лоферов на босую ногу и кед под костюм. Опрятный мужской вид без подрезанных
+                        штанов, и
+                        дресс-код с учетом специфики мероприятия
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="gallery">
+            <header class="gallery__header">
+                <h2 class="gallery__title">Галерея</h2>
+            </header>
+
+            <ul class="gallery__list">
+                <li class="thumbnail" onclick="openModal(); currentSlide(1)"><img src="img/slide1.png" alt="Фото 1">
+                </li>
+                <li class="thumbnail" onclick="openModal(); currentSlide(2)"><img src="img/slide2.png" alt="Фото 2">
+                </li>
+                <li class="thumbnail" onclick="openModal(); currentSlide(3)"><img src="img/slide3.png" alt="Фото 3">
+                </li>
+                <li class="thumbnail" onclick="openModal(); currentSlide(4)"><img src="img/slide4.png" alt="Фото 1">
+                </li>
+                <li class="thumbnail" onclick="openModal(); currentSlide(5)"><img src="img/slide5.png" alt="Фото 2">
+                </li>
+                <li class="thumbnail" onclick="openModal(); currentSlide(6)"><img src="img/slide6.png" alt="Фото 3">
+                </li>
+            </ul>
+
+            <div id="myModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+                    <div class="mySlides">
+                        <img src="img/slide1.png" alt="Фото 1">
+                    </div>
+                    <div class="mySlides">
+                        <img src="img/slide2.png" alt="Фото 2">
+                    </div>
+                    <div class="mySlides">
+                        <img src="img/slide3.png" alt="Фото 3">
+                    </div>
+                    <div class="mySlides">
+                        <img src="img/slide4.png" alt="Фото 1">
+                    </div>
+                    <div class="mySlides">
+                        <img src="img/slide5.png" alt="Фото 2">
+                    </div>
+                    <div class="mySlides">
+                        <img src="img/slide6.png" alt="Фото 3">
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="professional-level_section_right">
-            <img src="img/amiran2.png" alt="">
-        </div>
-
-    </section>
-
-    <section class="advantagesWorkingWithMe_section">
-        <h1>ПРЕИМУЩЕСТВА СОТРУДНИЧЕСТВО СО МНОЙ</h1>
-
-        <div class="advantagesWorkingWithMe_section_table">
-            <div class="advantagesWorkingWithMe_section_table_card">
-                <h2>Экспертность</h2>
-                <p>
-                    Человекоориентированность и гибкость
-                    Приверженность своему делу
-                    Большой практический опыт
-                    - возвели мою экспертность в проведении мероприятий на высокий уровень
-                </p>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
 
-            <div class="advantagesWorkingWithMe_section_table_card">
-                <h2>При необходимости:</h2>
-                <p>
-                    Договор с самозанятым (НПД)
-                    Звуковая аппаратура под ключ
-                    Консультация бесплатная (30 минут)
-                </p>
+        </section>
+        <section class="contacts">
+            <header class="contacts__header">
+                <h2 class="contacts__title">Контакты</h2>
+            </header>
+            <div class="contacts__info">
+                <p class="phone"><img src="img/call.svg" alt="">+7-928-658-6111</p>
+                <p class="mail"><img src="img/mail.svg" alt="">dzugov@internet.ru</p>
             </div>
+            <button class="contacts__button">Перейти в ВК</button>
+        </section>
+    </main>
 
-            <div class="advantagesWorkingWithMe_section_table_card">
-                <h2>Полное погружение в тему</h2>
-                <p>
-                    Обратившись ко мне, и решив сотрудничать со мной, вы пригласите не очередного ведущего с заученными
-                    фразами,
-                    шаблонным сценарием, а эрудита, постоянно развивающего свои компетенции и программу, как бонус,
-                    умение
-                    заряжать
-                    позитивом и хорошее чувство юмора включающееся там, где это уместно…
-                </p>
-            </div>
 
-            <div class="advantagesWorkingWithMe_section_table_card">
-                <h2>Проживаю мероприятие вместе с вами, не лезу во внутреннюю кухню, но могу дать ценные консультации и
-                    видения</h2>
-                <p>
-                    P.S. Никаких лоферов на босую ногу и кед под костюм. Опрятный мужской вид без подрезанных штанов, и
-                    дресс-код с учетом специфики мероприятия
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <div class="myGallery">
-        <div class="advantagesWorkingWithMe_section changeData">
-            <h1>Галерея</h1>
-        </div>
-        <div class="gallery">
-            <div class="thumbnail" onclick="openModal(); currentSlide(1)">
-                <img src="img/slide1.png" alt="Фото 1">
-            </div>
-            <div class="thumbnail" onclick="openModal(); currentSlide(2)">
-                <img src="img/slide2.png" alt="Фото 2">
-            </div>
-            <div class="thumbnail" onclick="openModal(); currentSlide(3)">
-                <img src="img/slide3.png" alt="Фото 3">
-            </div>
-            <div class="thumbnail" onclick="openModal(); currentSlide(4)">
-                <img src="img/slide4.png" alt="Фото 1">
-            </div>
-            <div class="thumbnail" onclick="openModal(); currentSlide(5)">
-                <img src="img/slide5.png" alt="Фото 2">
-            </div>
-            <div class="thumbnail" onclick="openModal(); currentSlide(6)">
-                <img src="img/slide6.png" alt="Фото 3">
-            </div>
-        </div>
-    </div>
-
-    <div id="myModal" class="modal">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <div class="modal-content">
-            <div class="mySlides">
-                <img src="img/slide1.png" alt="Фото 1">
-            </div>
-            <div class="mySlides">
-                <img src="img/slide2.png" alt="Фото 2">
-            </div>
-            <div class="mySlides">
-                <img src="img/slide3.png" alt="Фото 3">
-            </div>
-            <div class="mySlides">
-                <img src="img/slide4.png" alt="Фото 1">
-            </div>
-            <div class="mySlides">
-                <img src="img/slide5.png" alt="Фото 2">
-            </div>
-            <div class="mySlides">
-                <img src="img/slide6.png" alt="Фото 3">
-            </div>
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-
-    <section class="contacts_section">
-        <h1>Контакты</h1>
-        <p class="phone"><img src="img/call.svg" alt="">+7-928-658-6111</p>
-        <p class="mail"><img src="img/mail.svg" alt="">dzugov@internet.ru</p>
-
-        <div class="goToVK">
-            Перейти в ВК
-        </div>
-
-    </section>
-
-    <div class="footer">
-        <div class="footer_left">
-            <ul>
-                <li><a href="#">Политика конфиденциальности</a></li>
-                <li><a href="#">Согласие на обработку персональных данных</a></li>
-                <li><a href="#">Контактный номер 8000000000</a></li>
-            </ul>
-        </div>
-        <div class="footer_right">
-            <div class="footer_right__img">
-                <img src="img/logo_alazar_black.png" alt="">
-            </div>
-            <div class="footer_right__img">
-                <img src="img/мойбиз.png" alt="">
-            </div>
-        </div>
-    </div>
+    <footer class="footer">
+        <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link">Политика конфиденциальности</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Согласие на обработку персональных данных</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Контактный номер 8000000000</a></li>
+        </ul>
+        <!-- <div class="footer__right">
+            <img src="img/logo_alazar_black.png" alt="">
+            <img src="img/мойбиз.png" alt="">
+        </div> -->
+    </footer>
 
     <script src="js/galery.js"></script>
     <script src="js/slider.js"></script>
